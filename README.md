@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/lahu-low--code-ff69b4.svg?style=plastic)
+[![](https://img.shields.io/badge/author-SethVoler-blue.svg?style=plastic)](https://sethvoler.github.io)
 # lahu
 
 这是一个低代码平台开源项目
