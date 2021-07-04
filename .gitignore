@@ -1,0 +1,13 @@
+.DS_STORE
+node_modules
+*.log
+*.sublime-project
+*.sublime-workspace
+.idea
+.vscode
+
+packages/engine/node_modules
+packages/ui/node_modules
+packages/transfomer/node_modules
+packages/mock-server/node_modules
+

@@ -1,0 +1,17 @@
+.bar {
+  width: 40px;
+  height: calc(100vh - 60px);
+  background-color: #f8f8f8;
+  box-shadow: 1px 0 1px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 10000;
+}
+.bar .bar-name {
+  padding: 16px 0;
+}
+.bar .bar-name .normal path {
+  fill: #aaaaaa;
+}
+.bar .bar-name .active path {
+  fill: #000099;
+}

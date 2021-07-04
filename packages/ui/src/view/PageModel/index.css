@@ -1,0 +1,54 @@
+.page-model {
+  position: relative;
+  height: 100%;
+  display: flex;
+}
+.page-model .page-actions {
+  position: absolute;
+  top: 20px;
+  right: 220px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 1px 6px 0 rgba(25, 25, 25, 0.3);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+.page-model .page-actions .btn {
+  margin-right: 8px;
+  cursor: pointer;
+}
+.page-model .page-actions .btn.btn-active {
+  color: #009999;
+}
+.page-model .page-node-pane {
+  width: 200px;
+  background-color: pink;
+}
+.page-model .page-canvas {
+  flex: 1;
+  overflow: auto;
+}
+.page-model .page-setting-pane {
+  width: 200px;
+  background-color: pink;
+}
+.page-model .page-btn {
+  margin-left: 400px;
+}
+.page-model .page-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 240px;
+}
+.page-model .page-mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
